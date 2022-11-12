@@ -82,6 +82,7 @@ nav .logo img {
   border-radius: 3px;
   padding: 0.5rem 1rem;
   cursor: pointer;
+  /* z-index: 1; */
 }
 button {
   position: relative;
@@ -161,4 +162,9 @@ button:hover .button-text {
 }
 .hidden {
   display: none;
+}
+@media (max-width:650px){
+  .btn-div {
+    position: sticky;
+    top: 0;
 }
